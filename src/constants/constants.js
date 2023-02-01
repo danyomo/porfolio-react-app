@@ -3,9 +3,9 @@ export const projects = [
    title: 'Gericht restuarant',
     description: " Gericht Resturant app is the website that i implementes to improve my ReactJs skills. I use React hooks and other react best pratices to create this beautiful website",
       image: '/images/1.PNG',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['Javascript', 'React'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://peppy-frangipane-9f0955.netlify.app/',
     id: 0,
   },
   {
