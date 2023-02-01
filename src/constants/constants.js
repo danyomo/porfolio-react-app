@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: 'Gericht restuarant',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+   title: 'Gericht restuarant',
+    description: " Gericht Resturant app is the website that i implementes to improve my ReactJs skills. I use React hooks and other react best pratices to create this beautiful website",
       image: '/images/1.PNG',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
