@@ -4,7 +4,7 @@ import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+/* const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -41,7 +41,7 @@ const Timeline = () => {
 
     window.addEventListener('resize', handleResize);
   }, []);
-
+  */
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
@@ -49,7 +49,7 @@ const Timeline = () => {
       I'm Daniel omotara , a developer skilled in solving problems with Html, css, JavaScript, react, nextjs, redux, nodejs. 
 I am focused on being a valuable asset on any team and help organisation solve problems
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+     /* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -112,7 +112,7 @@ I am focused on being a valuable asset on any team and help organisation solve p
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
+      </CarouselButtons> */
       <SectionDivider />
     </Section>
   );
