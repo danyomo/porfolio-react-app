@@ -4,8 +4,8 @@ export const projects = [
     description: " Gericht Resturant app is the website that i implementes to improve my ReactJs skills. I use React hooks and other react best pratices to create this beautiful website",
       image: '/images/1.PNG',
       tags: ['Javascript', 'React'],
-    source: 'https://github.com/danyomo/porfolio-react-app',
-    visit: 'https://peppy-frangipane-9f0955.netlify.app/',
+    source: 'https://peppy-frangipane-9f0955.netlify.app/',
+    visit: ' https://github.com/danyomo/porfolio-react-app',
     id: 0,
   },
   {
