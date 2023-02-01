@@ -49,7 +49,7 @@ const Timeline = () => {
       I'm Daniel omotara , a developer skilled in solving problems with Html, css, JavaScript, react, nextjs, redux, nodejs. 
 I am focused on being a valuable asset on any team and help organisation solve problems
       </SectionText>
-     /* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -112,7 +112,7 @@ I am focused on being a valuable asset on any team and help organisation solve p
             </CarouselButton>
           );
         })}
-      </CarouselButtons> */
+      </CarouselButtons> 
       <SectionDivider />
     </Section>
   );
